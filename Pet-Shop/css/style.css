@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(1, 156, 1);
+    align-items: center;
+
+}
+
+.navbar-brand { 
+    color: white;
+    font-weight: 800;
+}
+
+.nav-item a{
+    color: white;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.titulo h1{
+    text-align: center;
+    color: white;
+}
+
+.produtos {
+    background-color: rgb(1, 156, 1);
+    padding: 20px;
+}
+
+.row {
+    padding: 40px;
+}
+
+.servicos {
+    padding: 20px;
+}
+
+.titulotwo {
+    color: rgb(1, 156, 1);
+    text-align: center;
+}
+
+.cadastro {
+    background-color: rgb(1, 156, 1);
+    position: relative;
+    padding: 20px;
+    align-items: center; 
+}
+
+
+.formulario {
+    padding-top: 20px; 
+    width: 100%;
+    max-width: 900px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+}
+
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px;
+}
+
+.formulario button {
+    background: #0d6efd;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    border-style:solid;
+    border-color: white;
+    font-size: 20px;
+    text-align: center;  
+    font-weight: 500;
+    align-self: center; 
+    color: white;
+}
+
+.footer {
+    text-align: center; 
+    padding:5px; 
+}
